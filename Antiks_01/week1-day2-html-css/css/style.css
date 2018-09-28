@@ -1,0 +1,96 @@
+body {
+    background-color: #efeee7;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #333333;
+    margin: 0;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 0;
+}
+
+header {
+    background-color: #333333;
+}
+
+h1 {
+    color: #eee;
+    font-size: 28px;  
+    text-align: center;
+    padding: 20px;
+    margin-top: 0;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+.container {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+#main-bio, #bio-image, #contact-info {
+    float: left;
+}
+
+#main-bio {
+    width: 70%;
+    line-height: 150%;
+}
+
+#bio-image {
+    width: 200px;
+    margin-right: 40px
+}
+
+#contact-info {
+    width: 30%;
+    line-height: 150%;
+}
+
+a {
+    color: #d21034;
+}
+
+/*
+Add a class called "container" on the div tag. For example: <div class="container">.
+Add an id called "main-bio" for the first section tag.
+Add an id called "contact-info" for the second section tag.
+Add an id called "bio-image" for the bio image.
+
+Style specs:
+
+body
+The background color is #efeee7.
+The font used is Georgia,"Times New Roman",Times,serif;.
+The font color is #333333.
+Be sure to zero out the body margins and padding so the page is flush to the top of the page:
+css
+body {
+margin: 0;
+padding: 0;
+}
+
+header
+The background color is #333333.
+h1
+The font color is #eee.
+The font size is 28px.
+Look at the example on the screen, and eyeball the padding and/or margins and positioning of the text.
+h2
+The font size is 24px
+
+Make the container have a width of 1024 pixels, and center it. You do this using margin: 0 auto;
+
+Make #main-bio, #contact-info, #bio-image all float: left.
+
+Make the #bio-image have a width of 200 pixels.
+Be sure to include alt text in all images
+
+#main-bio should have a width of 70%.
+Add margins to the image so there is distance between it and the bio text.
+
+#contact-info should have a width of 30%.
+Adjust the line height so it is 1.5 times the size of the font.
+Make the link color #d21034
+*/
