@@ -1,0 +1,886 @@
+16:38:03.708 INFO  Operation: node liri.js concert-this 
+16:38:03.708 INFO  Venue Name: The Black Box 
+16:38:03.708 INFO  Location: Denver , CO 
+16:38:03.724 INFO  Date: December 29th 2018, 09:00:00 pm 
+16:38:03.724 INFO  ============ 
+16:38:03.724 INFO  Operation: node liri.js concert-this 
+16:38:03.739 INFO  Venue Name: The Black Box 
+16:38:03.739 INFO  Location: Denver , CO 
+16:38:03.739 INFO  Date: December 31st 2018, 09:00:00 pm 
+16:38:03.739 INFO  ============ 
+16:38:03.739 INFO  Operation: node liri.js concert-this 
+16:38:03.739 INFO  Venue Name: The Black Box 
+16:38:03.739 INFO  Location: Denver , CO 
+16:38:03.739 INFO  Date: January 18th 2019, 09:00:00 pm 
+16:38:03.739 INFO  ============ 
+16:39:05.546 INFO  Operation: node liri.js concert-this metalica 
+16:39:05.546 INFO  Venue Name: The Forum 
+16:39:05.546 INFO  Location: Los Angeles , CA 
+16:39:05.562 INFO  Date: January 16th 2019, 07:00:00 pm 
+16:39:05.562 INFO  ============ 
+16:39:05.578 INFO  Operation: node liri.js concert-this metalica 
+16:39:05.578 INFO  Venue Name: BOK Center 
+16:39:05.578 INFO  Location: Tulsa , OK 
+16:39:05.578 INFO  Date: January 18th 2019, 07:30:00 pm 
+16:39:05.578 INFO  ============ 
+16:39:05.578 INFO  Operation: node liri.js concert-this metalica 
+16:39:05.578 INFO  Venue Name: Verizon Arena 
+16:39:05.578 INFO  Location: North Little Rock , AR 
+16:39:05.578 INFO  Date: January 20th 2019, 07:30:00 pm 
+16:39:05.578 INFO  ============ 
+16:39:35.891 INFO  Error: getaddrinfo ENOTFOUND spi.spotify.com spi.spotify.com:443
+RequestError: Error: getaddrinfo ENOTFOUND spi.spotify.com spi.spotify.com:443
+    at new RequestError (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\request-promise-core\lib\errors.js:14:15)
+    at Request.plumbing.callback (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\request-promise-core\lib\plumbing.js:87:29)
+    at Request.RP$callback [as _callback] (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\request-promise-core\lib\plumbing.js:46:31)
+    at self.callback (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\request\request.js:185:22)
+    at emitOne (events.js:116:13)
+    at Request.emit (events.js:211:7)
+    at Request.onRequestError (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\request\request.js:881:8)
+    at emitOne (events.js:116:13)
+    at ClientRequest.emit (events.js:211:7)
+    at TLSSocket.socketErrorListener (_http_client.js:387:9)
+    at emitOne (events.js:116:13)
+    at TLSSocket.emit (events.js:211:7)
+    at emitErrorNT (internal/streams/destroy.js:66:8)
+    at _combinedTickCallback (internal/process/next_tick.js:139:11)
+    at process._tickCallback (internal/process/next_tick.js:181:9) 
+16:40:27.120 INFO  MediaStreamTrackAudioSourceNode is not defined
+ReferenceError: MediaStreamTrackAudioSourceNode is not defined
+    at C:\Users\kenneths\Desktop\Antiks\liri-node-app\Liri-App.js:145:37
+    at tryCatcher (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\promise.js:694:18)
+    at _drainQueueStep (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\async.js:138:12)
+    at _drainQueue (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\async.js:131:9)
+    at Async._drainQueues (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\async.js:147:5)
+    at Immediate.Async.drainQueues (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:810:20)
+    at tryOnImmediate (timers.js:768:5)
+    at processImmediate [as _immediateCallback] (timers.js:745:5) 
+16:41:15.220 INFO  MediaStreamTrackAudioSourceNode is not defined
+ReferenceError: MediaStreamTrackAudioSourceNode is not defined
+    at C:\Users\kenneths\Desktop\Antiks\liri-node-app\Liri-App.js:145:37
+    at tryCatcher (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\promise.js:694:18)
+    at _drainQueueStep (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\async.js:138:12)
+    at _drainQueue (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\async.js:131:9)
+    at Async._drainQueues (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\async.js:147:5)
+    at Immediate.Async.drainQueues (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:810:20)
+    at tryOnImmediate (timers.js:768:5)
+    at processImmediate [as _immediateCallback] (timers.js:745:5) 
+16:43:32.449 INFO  Error: getaddrinfo ENOTFOUND spi.spotify.com spi.spotify.com:443
+RequestError: Error: getaddrinfo ENOTFOUND spi.spotify.com spi.spotify.com:443
+    at new RequestError (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\request-promise-core\lib\errors.js:14:15)
+    at Request.plumbing.callback (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\request-promise-core\lib\plumbing.js:87:29)
+    at Request.RP$callback [as _callback] (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\request-promise-core\lib\plumbing.js:46:31)
+    at self.callback (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\request\request.js:185:22)
+    at emitOne (events.js:116:13)
+    at Request.emit (events.js:211:7)
+    at Request.onRequestError (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\request\request.js:881:8)
+    at emitOne (events.js:116:13)
+    at ClientRequest.emit (events.js:211:7)
+    at TLSSocket.socketErrorListener (_http_client.js:387:9)
+    at emitOne (events.js:116:13)
+    at TLSSocket.emit (events.js:211:7)
+    at emitErrorNT (internal/streams/destroy.js:66:8)
+    at _combinedTickCallback (internal/process/next_tick.js:139:11)
+    at process._tickCallback (internal/process/next_tick.js:181:9) 
+16:45:17.389 INFO  tracks is not defined
+ReferenceError: tracks is not defined
+    at C:\Users\kenneths\Desktop\Antiks\liri-node-app\Liri-App.js:145:37
+    at tryCatcher (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\promise.js:694:18)
+    at _drainQueueStep (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\async.js:138:12)
+    at _drainQueue (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\async.js:131:9)
+    at Async._drainQueues (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\async.js:147:5)
+    at Immediate.Async.drainQueues (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:810:20)
+    at tryOnImmediate (timers.js:768:5)
+    at processImmediate [as _immediateCallback] (timers.js:745:5) 
+16:46:00.144 INFO  Error: getaddrinfo ENOTFOUND spi.spotify.com spi.spotify.com:443
+RequestError: Error: getaddrinfo ENOTFOUND spi.spotify.com spi.spotify.com:443
+    at new RequestError (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\request-promise-core\lib\errors.js:14:15)
+    at Request.plumbing.callback (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\request-promise-core\lib\plumbing.js:87:29)
+    at Request.RP$callback [as _callback] (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\request-promise-core\lib\plumbing.js:46:31)
+    at self.callback (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\request\request.js:185:22)
+    at emitOne (events.js:116:13)
+    at Request.emit (events.js:211:7)
+    at Request.onRequestError (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\request\request.js:881:8)
+    at emitOne (events.js:116:13)
+    at ClientRequest.emit (events.js:211:7)
+    at TLSSocket.socketErrorListener (_http_client.js:387:9)
+    at emitOne (events.js:116:13)
+    at TLSSocket.emit (events.js:211:7)
+    at emitErrorNT (internal/streams/destroy.js:66:8)
+    at _combinedTickCallback (internal/process/next_tick.js:139:11)
+    at process._tickCallback (internal/process/next_tick.js:181:9) 
+16:52:38.064 INFO  Error: getaddrinfo ENOTFOUND spi.spotify.com spi.spotify.com:443
+RequestError: Error: getaddrinfo ENOTFOUND spi.spotify.com spi.spotify.com:443
+    at new RequestError (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\request-promise-core\lib\errors.js:14:15)
+    at Request.plumbing.callback (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\request-promise-core\lib\plumbing.js:87:29)
+    at Request.RP$callback [as _callback] (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\request-promise-core\lib\plumbing.js:46:31)
+    at self.callback (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\request\request.js:185:22)
+    at emitOne (events.js:116:13)
+    at Request.emit (events.js:211:7)
+    at Request.onRequestError (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\request\request.js:881:8)
+    at emitOne (events.js:116:13)
+    at ClientRequest.emit (events.js:211:7)
+    at TLSSocket.socketErrorListener (_http_client.js:387:9)
+    at emitOne (events.js:116:13)
+    at TLSSocket.emit (events.js:211:7)
+    at emitErrorNT (internal/streams/destroy.js:66:8)
+    at _combinedTickCallback (internal/process/next_tick.js:139:11)
+    at process._tickCallback (internal/process/next_tick.js:181:9) 
+16:52:49.138 INFO  Operation: node liri.js concert-this metalica 
+16:52:49.138 INFO  Venue Name: The Forum 
+16:52:49.138 INFO  Location: Los Angeles , CA 
+16:52:49.154 INFO  Date: January 16th 2019, 07:00:00 pm 
+16:52:49.154 INFO  ============ 
+16:52:49.154 INFO  Operation: node liri.js concert-this metalica 
+16:52:49.154 INFO  Venue Name: BOK Center 
+16:52:49.154 INFO  Location: Tulsa , OK 
+16:52:49.154 INFO  Date: January 18th 2019, 07:30:00 pm 
+16:52:49.154 INFO  ============ 
+16:52:49.154 INFO  Operation: node liri.js concert-this metalica 
+16:52:49.154 INFO  Venue Name: Verizon Arena 
+16:52:49.154 INFO  Location: North Little Rock , AR 
+16:52:49.154 INFO  Date: January 20th 2019, 07:30:00 pm 
+16:52:49.170 INFO  ============ 
+17:05:28.492 INFO  artistName is not defined
+ReferenceError: artistName is not defined
+    at C:\Users\kenneths\Desktop\Antiks\liri-node-app\Liri-App.js:150:23
+    at tryCatcher (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\promise.js:694:18)
+    at _drainQueueStep (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\async.js:138:12)
+    at _drainQueue (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\async.js:131:9)
+    at Async._drainQueues (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\async.js:147:5)
+    at Immediate.Async.drainQueues (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:810:20)
+    at tryOnImmediate (timers.js:768:5)
+    at processImmediate [as _immediateCallback] (timers.js:745:5) 
+17:08:31.310 INFO  Operation: spotify-this-song Disease 
+17:08:31.310 INFO  Artist: Beartooth 
+17:08:31.310 INFO  Song: Disease 
+17:08:31.310 INFO  Spotify Preview URL: https://p.scdn.co/mp3-preview/9425cff32792b9a8e03ba41ee5a2c704957f51cf?cid=939a97dfe0d24de48565baadab4812c7 
+17:08:31.310 INFO  Album Name: Disease 
+17:08:31.310 INFO  ============ 
+17:08:40.451 INFO  Error: getaddrinfo ENOTFOUND spi.spotify.com spi.spotify.com:443
+RequestError: Error: getaddrinfo ENOTFOUND spi.spotify.com spi.spotify.com:443
+    at new RequestError (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\request-promise-core\lib\errors.js:14:15)
+    at Request.plumbing.callback (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\request-promise-core\lib\plumbing.js:87:29)
+    at Request.RP$callback [as _callback] (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\request-promise-core\lib\plumbing.js:46:31)
+    at self.callback (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\request\request.js:185:22)
+    at emitOne (events.js:116:13)
+    at Request.emit (events.js:211:7)
+    at Request.onRequestError (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\request\request.js:881:8)
+    at emitOne (events.js:116:13)
+    at ClientRequest.emit (events.js:211:7)
+    at TLSSocket.socketErrorListener (_http_client.js:387:9)
+    at emitOne (events.js:116:13)
+    at TLSSocket.emit (events.js:211:7)
+    at emitErrorNT (internal/streams/destroy.js:66:8)
+    at _combinedTickCallback (internal/process/next_tick.js:139:11)
+    at process._tickCallback (internal/process/next_tick.js:181:9) 
+17:10:51.039 INFO  Error: getaddrinfo ENOTFOUND spi.spotify.com spi.spotify.com:443
+RequestError: Error: getaddrinfo ENOTFOUND spi.spotify.com spi.spotify.com:443
+    at new RequestError (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\request-promise-core\lib\errors.js:14:15)
+    at Request.plumbing.callback (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\request-promise-core\lib\plumbing.js:87:29)
+    at Request.RP$callback [as _callback] (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\request-promise-core\lib\plumbing.js:46:31)
+    at self.callback (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\request\request.js:185:22)
+    at emitOne (events.js:116:13)
+    at Request.emit (events.js:211:7)
+    at Request.onRequestError (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\request\request.js:881:8)
+    at emitOne (events.js:116:13)
+    at ClientRequest.emit (events.js:211:7)
+    at TLSSocket.socketErrorListener (_http_client.js:387:9)
+    at emitOne (events.js:116:13)
+    at TLSSocket.emit (events.js:211:7)
+    at emitErrorNT (internal/streams/destroy.js:66:8)
+    at _combinedTickCallback (internal/process/next_tick.js:139:11)
+    at process._tickCallback (internal/process/next_tick.js:181:9) 
+17:14:28.168 INFO  Operation: spotify-this-song The Sign 
+17:14:28.168 INFO  Artist: Ace of Base 
+17:14:28.168 INFO  Song The Sign 
+17:14:28.168 INFO  Spotify Preview URL: https://p.scdn.co/mp3-preview/5ca0168d6b58e0f993b2b741af90ecc7c9b16893?cid=939a97dfe0d24de48565baadab4812c7 
+17:14:28.168 INFO  Album Name: Greatest Hits 
+17:14:28.168 INFO  ============ 
+17:15:11.739 INFO  Cannot read property 'album' of undefined
+TypeError: Cannot read property 'album' of undefined
+    at C:\Users\kenneths\Desktop\Antiks\liri-node-app\Liri-App.js:145:53
+    at tryCatcher (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\promise.js:694:18)
+    at _drainQueueStep (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\async.js:138:12)
+    at _drainQueue (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\async.js:131:9)
+    at Async._drainQueues (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\async.js:147:5)
+    at Immediate.Async.drainQueues (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:810:20)
+    at tryOnImmediate (timers.js:768:5)
+    at processImmediate [as _immediateCallback] (timers.js:745:5) 
+17:15:37.212 INFO  Cannot read property 'album' of undefined
+TypeError: Cannot read property 'album' of undefined
+    at C:\Users\kenneths\Desktop\Antiks\liri-node-app\Liri-App.js:145:53
+    at tryCatcher (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\promise.js:694:18)
+    at _drainQueueStep (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\async.js:138:12)
+    at _drainQueue (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\async.js:131:9)
+    at Async._drainQueues (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\async.js:147:5)
+    at Immediate.Async.drainQueues (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:810:20)
+    at tryOnImmediate (timers.js:768:5)
+    at processImmediate [as _immediateCallback] (timers.js:745:5) 
+17:15:45.574 INFO  Operation: spotify-this-song Disease 
+17:15:45.574 INFO  Artist: Beartooth 
+17:15:45.574 INFO  Song: Disease 
+17:15:45.574 INFO  Spotify Preview URL: https://p.scdn.co/mp3-preview/9425cff32792b9a8e03ba41ee5a2c704957f51cf?cid=939a97dfe0d24de48565baadab4812c7 
+17:15:45.574 INFO  Album Name: Disease 
+17:15:45.574 INFO  ============ 
+17:16:02.815 INFO  Cannot read property 'album' of undefined
+TypeError: Cannot read property 'album' of undefined
+    at C:\Users\kenneths\Desktop\Antiks\liri-node-app\Liri-App.js:145:53
+    at tryCatcher (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\promise.js:694:18)
+    at _drainQueueStep (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\async.js:138:12)
+    at _drainQueue (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\async.js:131:9)
+    at Async._drainQueues (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\async.js:147:5)
+    at Immediate.Async.drainQueues (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:810:20)
+    at tryOnImmediate (timers.js:768:5)
+    at processImmediate [as _immediateCallback] (timers.js:745:5) 
+17:16:40.181 INFO  Cannot read property 'album' of undefined
+TypeError: Cannot read property 'album' of undefined
+    at C:\Users\kenneths\Desktop\Antiks\liri-node-app\Liri-App.js:145:53
+    at tryCatcher (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\promise.js:694:18)
+    at _drainQueueStep (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\async.js:138:12)
+    at _drainQueue (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\async.js:131:9)
+    at Async._drainQueues (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\async.js:147:5)
+    at Immediate.Async.drainQueues (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:810:20)
+    at tryOnImmediate (timers.js:768:5)
+    at processImmediate [as _immediateCallback] (timers.js:745:5) 
+17:16:52.087 INFO  Cannot read property 'album' of undefined
+TypeError: Cannot read property 'album' of undefined
+    at C:\Users\kenneths\Desktop\Antiks\liri-node-app\Liri-App.js:145:53
+    at tryCatcher (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\promise.js:694:18)
+    at _drainQueueStep (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\async.js:138:12)
+    at _drainQueue (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\async.js:131:9)
+    at Async._drainQueues (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\async.js:147:5)
+    at Immediate.Async.drainQueues (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:810:20)
+    at tryOnImmediate (timers.js:768:5)
+    at processImmediate [as _immediateCallback] (timers.js:745:5) 
+17:18:42.230 INFO  Operation: spotify-this-song Lietome 
+17:18:42.230 INFO  Artist: scaresthedaylights 
+17:18:42.230 INFO  Song: Lietome 
+17:18:42.230 INFO  Spotify Preview URL: https://p.scdn.co/mp3-preview/def9a7544004acead62628e3b58003fa1a1b094a?cid=939a97dfe0d24de48565baadab4812c7 
+17:18:42.230 INFO  Album Name: In the Throes 
+17:18:42.230 INFO  ============ 
+17:20:13.369 INFO  Cannot read property 'album' of undefined
+TypeError: Cannot read property 'album' of undefined
+    at C:\Users\kenneths\Desktop\Antiks\liri-node-app\Liri-App.js:145:53
+    at tryCatcher (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\promise.js:694:18)
+    at _drainQueueStep (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\async.js:138:12)
+    at _drainQueue (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\async.js:131:9)
+    at Async._drainQueues (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\async.js:147:5)
+    at Immediate.Async.drainQueues (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:810:20)
+    at tryOnImmediate (timers.js:768:5)
+    at processImmediate [as _immediateCallback] (timers.js:745:5) 
+17:20:20.265 INFO  Cannot read property 'album' of undefined
+TypeError: Cannot read property 'album' of undefined
+    at C:\Users\kenneths\Desktop\Antiks\liri-node-app\Liri-App.js:145:53
+    at tryCatcher (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\promise.js:694:18)
+    at _drainQueueStep (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\async.js:138:12)
+    at _drainQueue (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\async.js:131:9)
+    at Async._drainQueues (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\async.js:147:5)
+    at Immediate.Async.drainQueues (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:810:20)
+    at tryOnImmediate (timers.js:768:5)
+    at processImmediate [as _immediateCallback] (timers.js:745:5) 
+17:20:40.683 INFO  Cannot read property 'album' of undefined
+TypeError: Cannot read property 'album' of undefined
+    at C:\Users\kenneths\Desktop\Antiks\liri-node-app\Liri-App.js:145:53
+    at tryCatcher (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\promise.js:694:18)
+    at _drainQueueStep (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\async.js:138:12)
+    at _drainQueue (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\async.js:131:9)
+    at Async._drainQueues (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\async.js:147:5)
+    at Immediate.Async.drainQueues (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:810:20)
+    at tryOnImmediate (timers.js:768:5)
+    at processImmediate [as _immediateCallback] (timers.js:745:5) 
+17:21:19.887 INFO  Cannot read property 'album' of undefined
+TypeError: Cannot read property 'album' of undefined
+    at C:\Users\kenneths\Desktop\Antiks\liri-node-app\Liri-App.js:145:53
+    at tryCatcher (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\promise.js:694:18)
+    at _drainQueueStep (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\async.js:138:12)
+    at _drainQueue (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\async.js:131:9)
+    at Async._drainQueues (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\async.js:147:5)
+    at Immediate.Async.drainQueues (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:810:20)
+    at tryOnImmediate (timers.js:768:5)
+    at processImmediate [as _immediateCallback] (timers.js:745:5) 
+17:21:59.926 INFO  Cannot read property 'album' of undefined
+TypeError: Cannot read property 'album' of undefined
+    at C:\Users\kenneths\Desktop\Antiks\liri-node-app\Liri-App.js:145:53
+    at tryCatcher (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\promise.js:694:18)
+    at _drainQueueStep (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\async.js:138:12)
+    at _drainQueue (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\async.js:131:9)
+    at Async._drainQueues (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\async.js:147:5)
+    at Immediate.Async.drainQueues (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:810:20)
+    at tryOnImmediate (timers.js:768:5)
+    at processImmediate [as _immediateCallback] (timers.js:745:5) 
+17:22:34.110 INFO  Operation: spotify-this-song The Sign 
+17:22:34.110 INFO  Artist: Ace of Base 
+17:22:34.110 INFO  Song The Sign 
+17:22:34.110 INFO  Spotify Preview URL: https://p.scdn.co/mp3-preview/5ca0168d6b58e0f993b2b741af90ecc7c9b16893?cid=939a97dfe0d24de48565baadab4812c7 
+17:22:34.110 INFO  Album Name: Greatest Hits 
+17:22:34.110 INFO  ============ 
+17:22:47.156 INFO  Operation: spotify-this-song Boysdontcry 
+17:22:47.156 INFO  Artist: MC Chris 
+17:22:47.156 INFO  Song: Boysdontcry 
+17:22:47.156 INFO  Spotify Preview URL: https://p.scdn.co/mp3-preview/ee6e367462d8d94502f32eb4f3e4935ecf8f922a?cid=939a97dfe0d24de48565baadab4812c7 
+17:22:47.156 INFO  Album Name: Eating's Not Cheating 
+17:22:47.156 INFO  ============ 
+17:23:17.535 INFO  Cannot read property 'album' of undefined
+TypeError: Cannot read property 'album' of undefined
+    at C:\Users\kenneths\Desktop\Antiks\liri-node-app\Liri-App.js:145:53
+    at tryCatcher (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\promise.js:694:18)
+    at _drainQueueStep (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\async.js:138:12)
+    at _drainQueue (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\async.js:131:9)
+    at Async._drainQueues (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\async.js:147:5)
+    at Immediate.Async.drainQueues (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:810:20)
+    at tryOnImmediate (timers.js:768:5)
+    at processImmediate [as _immediateCallback] (timers.js:745:5) 
+17:23:43.408 INFO  Operation: spotify-this-song Closetome 
+17:23:43.408 INFO  Artist: Sinos 
+17:23:43.408 INFO  Song: Closetome 
+17:23:43.408 INFO  Spotify Preview URL: https://p.scdn.co/mp3-preview/24f39bae159f3ec5d9639cf9143a77e1c1efc33f?cid=939a97dfe0d24de48565baadab4812c7 
+17:23:43.408 INFO  Album Name: Closetome 
+17:23:43.408 INFO  ============ 
+17:24:22.890 INFO  Operation: node liri.js movie-this Mr. Nobody 
+17:24:22.890 INFO  Title: Mr. Nobody 
+17:24:22.890 INFO  Year: 2009 
+17:24:22.890 INFO  IMDB Rating: 7.9/10 
+17:24:22.890 INFO  Rotton Tomatoes Rating: 67% 
+17:24:22.890 INFO  Country Belgium, Germany, Canada, France, USA, UK 
+17:24:22.890 INFO  Language English, Mohawk 
+17:24:22.890 INFO  Plot A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible. 
+17:24:22.890 INFO  Actors Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham 
+17:24:22.890 INFO  ============ 
+17:24:35.935 INFO  Operation: node liri.js movie-this avengers 
+17:24:35.935 INFO  Title: The Avengers 
+17:24:35.935 INFO  Year: 2012 
+17:24:35.935 INFO  IMDB Rating: 8.1/10 
+17:24:35.935 INFO  Rotton Tomatoes Rating: 92% 
+17:24:35.935 INFO  Country USA 
+17:24:35.935 INFO  Language English, Russian, Hindi 
+17:24:35.935 INFO  Plot Earth's mightiest heroes must come together and learn to fight as a team if they are going to stop the mischievous Loki and his alien army from enslaving humanity. 
+17:24:35.935 INFO  Actors Robert Downey Jr., Chris Evans, Mark Ruffalo, Chris Hemsworth 
+17:24:35.935 INFO  ============ 
+17:24:55.892 INFO  Operation: spotify-this-song I Want It That Way 
+17:24:55.892 INFO  Artist: Backstreet Boys 
+17:24:55.892 INFO  Song: I Want It That Way 
+17:24:55.892 INFO  Spotify Preview URL: https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=939a97dfe0d24de48565baadab4812c7 
+17:24:55.892 INFO  Album Name: The Hits--Chapter One 
+17:24:55.892 INFO  ============ 
+11:44:50.345 INFO  Operation: node liri.js movie-this thehobit 
+11:44:50.345 INFO  Title: undefined 
+11:44:50.345 INFO  Year: undefined 
+11:44:50.345 INFO  Cannot read property '0' of undefined
+TypeError: Cannot read property '0' of undefined
+    at C:\Users\kenneths\Desktop\Antiks\liri-node-app\Liri-App.js:104:56
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7) 
+11:46:04.504 INFO  Operation: node liri.js movie-this thehobbit 
+11:46:04.504 INFO  Title: undefined 
+11:46:04.504 INFO  Year: undefined 
+11:46:04.504 INFO  Cannot read property '0' of undefined
+TypeError: Cannot read property '0' of undefined
+    at C:\Users\kenneths\Desktop\Antiks\liri-node-app\Liri-App.js:104:56
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7) 
+11:46:16.661 INFO  Operation: node liri.js movie-this Mr. Nobody 
+11:46:16.661 INFO  Title: Mr. Nobody 
+11:46:16.661 INFO  Year: 2009 
+11:46:16.661 INFO  IMDB Rating: 7.9/10 
+11:46:16.661 INFO  Rotton Tomatoes Rating: 67% 
+11:46:16.661 INFO  Country Belgium, Germany, Canada, France, USA, UK 
+11:46:16.661 INFO  Language English, Mohawk 
+11:46:16.661 INFO  Plot A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible. 
+11:46:16.661 INFO  Actors Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham 
+11:46:16.676 INFO  ============ 
+11:48:01.361 INFO  Operation: node liri.js movie-this lordoftherings 
+11:48:01.361 INFO  Title: undefined 
+11:48:01.361 INFO  Year: undefined 
+11:48:01.361 INFO  Cannot read property '0' of undefined
+TypeError: Cannot read property '0' of undefined
+    at C:\Users\kenneths\Desktop\Antiks\liri-node-app\Liri-App.js:104:56
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7) 
+11:48:22.270 INFO  Operation: node liri.js movie-this thefellowshipofthering 
+11:48:22.270 INFO  Title: undefined 
+11:48:22.270 INFO  Year: undefined 
+11:48:22.270 INFO  Cannot read property '0' of undefined
+TypeError: Cannot read property '0' of undefined
+    at C:\Users\kenneths\Desktop\Antiks\liri-node-app\Liri-App.js:104:56
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7) 
+11:48:31.065 INFO  Operation: node liri.js movie-this batman 
+11:48:31.065 INFO  Title: Batman 
+11:48:31.065 INFO  Year: 1989 
+11:48:31.065 INFO  IMDB Rating: 7.5/10 
+11:48:31.065 INFO  Rotton Tomatoes Rating: 72% 
+11:48:31.065 INFO  Country USA, UK 
+11:48:31.065 INFO  Language English, French, Spanish 
+11:48:31.065 INFO  Plot The Dark Knight of Gotham City begins his war on crime with his first major enemy being the clownishly homicidal Joker. 
+11:48:31.065 INFO  Actors Michael Keaton, Jack Nicholson, Kim Basinger, Robert Wuhl 
+11:48:31.081 INFO  ============ 
+11:48:42.736 INFO  Operation: node liri.js movie-this thedarkknight 
+11:48:42.736 INFO  Title: undefined 
+11:48:42.736 INFO  Year: undefined 
+11:48:42.736 INFO  Cannot read property '0' of undefined
+TypeError: Cannot read property '0' of undefined
+    at C:\Users\kenneths\Desktop\Antiks\liri-node-app\Liri-App.js:104:56
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7) 
+11:48:50.561 INFO  Operation: node liri.js movie-this themrnobady 
+11:48:50.561 INFO  Title: undefined 
+11:48:50.561 INFO  Year: undefined 
+11:48:50.561 INFO  Cannot read property '0' of undefined
+TypeError: Cannot read property '0' of undefined
+    at C:\Users\kenneths\Desktop\Antiks\liri-node-app\Liri-App.js:104:56
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7) 
+11:48:56.560 INFO  Operation: node liri.js movie-this themrnobody 
+11:48:56.560 INFO  Title: undefined 
+11:48:56.560 INFO  Year: undefined 
+11:48:56.560 INFO  Cannot read property '0' of undefined
+TypeError: Cannot read property '0' of undefined
+    at C:\Users\kenneths\Desktop\Antiks\liri-node-app\Liri-App.js:104:56
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7) 
+11:49:04.288 INFO  Operation: node liri.js movie-this themrnobody 
+11:49:04.288 INFO  Title: undefined 
+11:49:04.288 INFO  Year: undefined 
+11:49:04.288 INFO  Cannot read property '0' of undefined
+TypeError: Cannot read property '0' of undefined
+    at C:\Users\kenneths\Desktop\Antiks\liri-node-app\Liri-App.js:104:56
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7) 
+11:49:19.238 INFO  Operation: node liri.js movie-this mrnobody 
+11:49:19.238 INFO  Title: undefined 
+11:49:19.238 INFO  Year: undefined 
+11:49:19.238 INFO  Cannot read property '0' of undefined
+TypeError: Cannot read property '0' of undefined
+    at C:\Users\kenneths\Desktop\Antiks\liri-node-app\Liri-App.js:104:56
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7) 
+11:49:27.057 INFO  Operation: node liri.js movie-this mrnobody 
+11:49:27.057 INFO  Title: undefined 
+11:49:27.057 INFO  Year: undefined 
+11:49:27.073 INFO  Cannot read property '0' of undefined
+TypeError: Cannot read property '0' of undefined
+    at C:\Users\kenneths\Desktop\Antiks\liri-node-app\Liri-App.js:104:56
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7) 
+11:49:36.159 INFO  Operation: node liri.js movie-this Mr. Nobody 
+11:49:36.159 INFO  Title: Mr. Nobody 
+11:49:36.159 INFO  Year: 2009 
+11:49:36.159 INFO  IMDB Rating: 7.9/10 
+11:49:36.159 INFO  Rotton Tomatoes Rating: 67% 
+11:49:36.159 INFO  Country Belgium, Germany, Canada, France, USA, UK 
+11:49:36.159 INFO  Language English, Mohawk 
+11:49:36.159 INFO  Plot A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible. 
+11:49:36.159 INFO  Actors Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham 
+11:49:36.159 INFO  ============ 
+11:49:49.081 INFO  Operation: node liri.js movie-this mr.nobody 
+11:49:49.081 INFO  Title: Mr. Nobody 
+11:49:49.081 INFO  Year: 2009 
+11:49:49.081 INFO  IMDB Rating: 7.9/10 
+11:49:49.081 INFO  Rotton Tomatoes Rating: 67% 
+11:49:49.081 INFO  Country Belgium, Germany, Canada, France, USA, UK 
+11:49:49.081 INFO  Language English, Mohawk 
+11:49:49.081 INFO  Plot A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible. 
+11:49:49.081 INFO  Actors Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham 
+11:49:49.081 INFO  ============ 
+11:50:47.562 INFO  Operation: node liri.js movie-this lordofthering 
+11:50:47.562 INFO  Title: undefined 
+11:50:47.562 INFO  Year: undefined 
+11:50:47.562 INFO  Cannot read property '0' of undefined
+TypeError: Cannot read property '0' of undefined
+    at C:\Users\kenneths\Desktop\Antiks\liri-node-app\Liri-App.js:104:56
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7) 
+11:50:58.363 INFO  Operation: node liri.js movie-this lordoftherings 
+11:50:58.363 INFO  Title: undefined 
+11:50:58.363 INFO  Year: undefined 
+11:50:58.363 INFO  Cannot read property '0' of undefined
+TypeError: Cannot read property '0' of undefined
+    at C:\Users\kenneths\Desktop\Antiks\liri-node-app\Liri-App.js:104:56
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7) 
+11:51:22.611 INFO  Operation: node liri.js movie-this starwars 
+11:51:22.611 INFO  Title: The StarWars Adventures 
+11:51:22.611 INFO  Year: 2016– 
+11:51:22.611 INFO  Cannot read property 'Value' of undefined
+TypeError: Cannot read property 'Value' of undefined
+    at C:\Users\kenneths\Desktop\Antiks\liri-node-app\Liri-App.js:104:60
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7) 
+11:52:38.883 INFO  Operation: node liri.js movie-this avengers 
+11:52:38.883 INFO  Title: The Avengers 
+11:52:38.883 INFO  Year: 2012 
+11:52:38.883 INFO  IMDB Rating: 8.1/10 
+11:52:38.883 INFO  Rotton Tomatoes Rating: 92% 
+11:52:38.883 INFO  Country USA 
+11:52:38.883 INFO  Language English, Russian, Hindi 
+11:52:38.883 INFO  Plot Earth's mightiest heroes must come together and learn to fight as a team if they are going to stop the mischievous Loki and his alien army from enslaving humanity. 
+11:52:38.883 INFO  Actors Robert Downey Jr., Chris Evans, Mark Ruffalo, Chris Hemsworth 
+11:52:38.883 INFO  ============ 
+15:58:23.951 INFO  Operation: node liri.js movie-this avengers 
+15:58:23.951 INFO  Title: The Avengers 
+15:58:23.951 INFO  Year: 2012 
+15:58:23.951 INFO  IMDB Rating: 8.1/10 
+15:58:23.951 INFO  Rotton Tomatoes Rating: 92% 
+15:58:23.951 INFO  Country USA 
+15:58:23.951 INFO  Language English, Russian, Hindi 
+15:58:23.951 INFO  Plot Earth's mightiest heroes must come together and learn to fight as a team if they are going to stop the mischievous Loki and his alien army from enslaving humanity. 
+15:58:23.951 INFO  Actors Robert Downey Jr., Chris Evans, Mark Ruffalo, Chris Hemsworth 
+15:58:23.951 INFO  ============ 
+16:05:28.352 INFO  Operation: node liri.js concert-this recondnb 
+16:05:28.353 INFO  Venue Name: The Black Box 
+16:05:28.354 INFO  Location: Denver , CO 
+16:05:28.364 INFO  Date: December 29th 2018, 09:00:00 pm 
+16:05:28.364 INFO  ============ 
+16:05:28.365 INFO  Operation: node liri.js concert-this recondnb 
+16:05:28.365 INFO  Venue Name: The Black Box 
+16:05:28.366 INFO  Location: Denver , CO 
+16:05:28.366 INFO  Date: December 31st 2018, 09:00:00 pm 
+16:05:28.367 INFO  ============ 
+16:05:28.367 INFO  Operation: node liri.js concert-this recondnb 
+16:05:28.367 INFO  Venue Name: The Black Box 
+16:05:28.368 INFO  Location: Denver , CO 
+16:05:28.368 INFO  Date: January 18th 2019, 09:00:00 pm 
+16:05:28.369 INFO  ============ 
+16:09:41.692 INFO  Cannot read property 'album' of undefined
+TypeError: Cannot read property 'album' of undefined
+    at C:\Users\kenneths\Desktop\Antiks\liri-node-app\Liri-App.js:145:53
+    at tryCatcher (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\promise.js:694:18)
+    at _drainQueueStep (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\async.js:138:12)
+    at _drainQueue (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\async.js:131:9)
+    at Async._drainQueues (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\async.js:147:5)
+    at Immediate.Async.drainQueues (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:810:20)
+    at tryOnImmediate (timers.js:768:5)
+    at processImmediate [as _immediateCallback] (timers.js:745:5) 
+16:11:07.526 INFO  Operation: spotify-this-song Disease 
+16:11:07.527 INFO  Artist: Beartooth 
+16:11:07.528 INFO  Song: Disease 
+16:11:07.528 INFO  Spotify Preview URL: https://p.scdn.co/mp3-preview/9425cff32792b9a8e03ba41ee5a2c704957f51cf?cid=939a97dfe0d24de48565baadab4812c7 
+16:11:07.529 INFO  Album Name: Disease 
+16:11:07.529 INFO  ============ 
+16:12:41.018 INFO  Cannot read property 'album' of undefined
+TypeError: Cannot read property 'album' of undefined
+    at C:\Users\kenneths\Desktop\Antiks\liri-node-app\Liri-App.js:146:53
+    at tryCatcher (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\promise.js:694:18)
+    at _drainQueueStep (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\async.js:138:12)
+    at _drainQueue (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\async.js:131:9)
+    at Async._drainQueues (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\async.js:147:5)
+    at Immediate.Async.drainQueues (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:810:20)
+    at tryOnImmediate (timers.js:768:5)
+    at processImmediate [as _immediateCallback] (timers.js:745:5) 
+16:13:46.319 INFO  artistsArray is not defined
+ReferenceError: artistsArray is not defined
+    at C:\Users\kenneths\Desktop\Antiks\liri-node-app\Liri-App.js:148:30
+    at tryCatcher (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\promise.js:694:18)
+    at _drainQueueStep (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\async.js:138:12)
+    at _drainQueue (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\async.js:131:9)
+    at Async._drainQueues (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\async.js:147:5)
+    at Immediate.Async.drainQueues (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:810:20)
+    at tryOnImmediate (timers.js:768:5)
+    at processImmediate [as _immediateCallback] (timers.js:745:5) 
+16:14:35.555 INFO  Cannot read property 'artists' of undefined
+TypeError: Cannot read property 'artists' of undefined
+    at C:\Users\kenneths\Desktop\Antiks\liri-node-app\Liri-App.js:146:53
+    at tryCatcher (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\promise.js:694:18)
+    at _drainQueueStep (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\async.js:138:12)
+    at _drainQueue (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\async.js:131:9)
+    at Async._drainQueues (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\async.js:147:5)
+    at Immediate.Async.drainQueues (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:810:20)
+    at tryOnImmediate (timers.js:768:5)
+    at processImmediate [as _immediateCallback] (timers.js:745:5) 
+16:16:27.112 INFO  Cannot read property 'albums' of undefined
+TypeError: Cannot read property 'albums' of undefined
+    at C:\Users\kenneths\Desktop\Antiks\liri-node-app\Liri-App.js:146:53
+    at tryCatcher (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\promise.js:694:18)
+    at _drainQueueStep (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\async.js:138:12)
+    at _drainQueue (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\async.js:131:9)
+    at Async._drainQueues (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\async.js:147:5)
+    at Immediate.Async.drainQueues (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:810:20)
+    at tryOnImmediate (timers.js:768:5)
+    at processImmediate [as _immediateCallback] (timers.js:745:5) 
+16:20:43.712 INFO  Cannot read property 'album' of undefined
+TypeError: Cannot read property 'album' of undefined
+    at C:\Users\kenneths\Desktop\Antiks\liri-node-app\Liri-App.js:146:53
+    at tryCatcher (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\promise.js:694:18)
+    at _drainQueueStep (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\async.js:138:12)
+    at _drainQueue (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\async.js:131:9)
+    at Async._drainQueues (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\async.js:147:5)
+    at Immediate.Async.drainQueues (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:810:20)
+    at tryOnImmediate (timers.js:768:5)
+    at processImmediate [as _immediateCallback] (timers.js:745:5) 
+16:23:54.627 INFO  Cannot read property 'artists' of undefined
+TypeError: Cannot read property 'artists' of undefined
+    at C:\Users\kenneths\Desktop\Antiks\liri-node-app\Liri-App.js:146:56
+    at tryCatcher (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\promise.js:694:18)
+    at _drainQueueStep (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\async.js:138:12)
+    at _drainQueue (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\async.js:131:9)
+    at Async._drainQueues (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\async.js:147:5)
+    at Immediate.Async.drainQueues (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:810:20)
+    at tryOnImmediate (timers.js:768:5)
+    at processImmediate [as _immediateCallback] (timers.js:745:5) 
+16:24:24.048 INFO  Cannot read property 'name' of undefined
+TypeError: Cannot read property 'name' of undefined
+    at C:\Users\kenneths\Desktop\Antiks\liri-node-app\Liri-App.js:152:76
+    at tryCatcher (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\promise.js:694:18)
+    at _drainQueueStep (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\async.js:138:12)
+    at _drainQueue (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\async.js:131:9)
+    at Async._drainQueues (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\async.js:147:5)
+    at Immediate.Async.drainQueues (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:810:20)
+    at tryOnImmediate (timers.js:768:5)
+    at processImmediate [as _immediateCallback] (timers.js:745:5) 
+16:28:00.601 INFO  Cannot read property 'album' of undefined
+TypeError: Cannot read property 'album' of undefined
+    at C:\Users\kenneths\Desktop\Antiks\liri-node-app\Liri-App.js:146:53
+    at tryCatcher (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\promise.js:694:18)
+    at _drainQueueStep (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\async.js:138:12)
+    at _drainQueue (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\async.js:131:9)
+    at Async._drainQueues (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\async.js:147:5)
+    at Immediate.Async.drainQueues (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:810:20)
+    at tryOnImmediate (timers.js:768:5)
+    at processImmediate [as _immediateCallback] (timers.js:745:5) 
+16:40:37.744 INFO  Operation: spotify-this-song undefined 
+16:40:37.745 INFO  Artist: undefined 
+16:40:37.751 INFO  Cannot read property 'name' of undefined
+TypeError: Cannot read property 'name' of undefined
+    at C:\Users\kenneths\Desktop\Antiks\liri-node-app\Liri-App.js:159:57
+    at tryCatcher (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\promise.js:694:18)
+    at _drainQueueStep (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\async.js:138:12)
+    at _drainQueue (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\async.js:131:9)
+    at Async._drainQueues (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\async.js:147:5)
+    at Immediate.Async.drainQueues (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:810:20)
+    at tryOnImmediate (timers.js:768:5)
+    at processImmediate [as _immediateCallback] (timers.js:745:5) 
+16:43:57.397 INFO  Cannot read property 'tracks' of undefined
+TypeError: Cannot read property 'tracks' of undefined
+    at C:\Users\kenneths\Desktop\Antiks\liri-node-app\Liri-App.js:152:42
+    at tryCatcher (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\promise.js:694:18)
+    at _drainQueueStep (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\async.js:138:12)
+    at _drainQueue (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\async.js:131:9)
+    at Async._drainQueues (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\async.js:147:5)
+    at Immediate.Async.drainQueues (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:810:20)
+    at tryOnImmediate (timers.js:768:5)
+    at processImmediate [as _immediateCallback] (timers.js:745:5) 
+16:44:50.623 INFO  Cannot read property 'tracks' of undefined
+TypeError: Cannot read property 'tracks' of undefined
+    at C:\Users\kenneths\Desktop\Antiks\liri-node-app\Liri-App.js:152:42
+    at tryCatcher (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\promise.js:694:18)
+    at _drainQueueStep (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\async.js:138:12)
+    at _drainQueue (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\async.js:131:9)
+    at Async._drainQueues (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\async.js:147:5)
+    at Immediate.Async.drainQueues (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:810:20)
+    at tryOnImmediate (timers.js:768:5)
+    at processImmediate [as _immediateCallback] (timers.js:745:5) 
+16:46:41.613 INFO  Cannot read property 'tracks' of undefined
+TypeError: Cannot read property 'tracks' of undefined
+    at C:\Users\kenneths\Desktop\Antiks\liri-node-app\Liri-App.js:153:42
+    at tryCatcher (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\promise.js:694:18)
+    at _drainQueueStep (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\async.js:138:12)
+    at _drainQueue (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\async.js:131:9)
+    at Async._drainQueues (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\async.js:147:5)
+    at Immediate.Async.drainQueues (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:810:20)
+    at tryOnImmediate (timers.js:768:5)
+    at processImmediate [as _immediateCallback] (timers.js:745:5) 
+16:48:18.781 INFO  name is not defined
+ReferenceError: name is not defined
+    at C:\Users\kenneths\Desktop\Antiks\liri-node-app\Liri-App.js:158:51
+    at tryCatcher (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\promise.js:694:18)
+    at _drainQueueStep (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\async.js:138:12)
+    at _drainQueue (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\async.js:131:9)
+    at Async._drainQueues (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\async.js:147:5)
+    at Immediate.Async.drainQueues (C:\Users\kenneths\Desktop\Antiks\liri-node-app\node_modules\bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:810:20)
+    at tryOnImmediate (timers.js:768:5)
+    at processImmediate [as _immediateCallback] (timers.js:745:5) 
+16:48:55.848 INFO  Operation: spotify-this-song Disease 
+16:48:55.848 INFO  Artist: Beartooth 
+16:48:55.849 INFO  Song: Disease 
+16:48:55.849 INFO  Spotify Preview URL: https://p.scdn.co/mp3-preview/9425cff32792b9a8e03ba41ee5a2c704957f51cf?cid=939a97dfe0d24de48565baadab4812c7 
+16:48:55.849 INFO  Album Name: Disease 
+16:48:55.849 INFO  ============ 
+16:50:08.256 INFO  Operation: spotify-this-song Disease 
+16:50:08.257 INFO  Artist: Beartooth 
+16:50:08.258 INFO  Song: Disease 
+16:50:08.258 INFO  Spotify Preview URL: https://p.scdn.co/mp3-preview/9425cff32792b9a8e03ba41ee5a2c704957f51cf?cid=939a97dfe0d24de48565baadab4812c7 
+16:50:08.259 INFO  Album Name: Disease 
+16:50:08.259 INFO  ============ 
+16:54:20.105 INFO  Operation: spotify-this-song I Want It That Way 
+16:54:20.106 INFO  Artist: Backstreet Boys 
+16:54:20.106 INFO  Song: I Want It That Way 
+16:54:20.107 INFO  Spotify Preview URL: https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=939a97dfe0d24de48565baadab4812c7 
+16:54:20.107 INFO  Album Name: The Hits--Chapter One 
+16:54:20.108 INFO  ============ 
+16:55:32.397 INFO  Operation: node liri.js concert-this 
+16:55:32.398 INFO  Venue Name: The Black Box 
+16:55:32.399 INFO  Location: Denver , CO 
+16:55:32.411 INFO  Date: December 29th 2018, 09:00:00 pm 
+16:55:32.412 INFO  ============ 
+16:55:32.412 INFO  Operation: node liri.js concert-this 
+16:55:32.412 INFO  Venue Name: The Black Box 
+16:55:32.412 INFO  Location: Denver , CO 
+16:55:32.413 INFO  Date: December 31st 2018, 09:00:00 pm 
+16:55:32.414 INFO  ============ 
+16:55:32.414 INFO  Operation: node liri.js concert-this 
+16:55:32.414 INFO  Venue Name: The Black Box 
+16:55:32.415 INFO  Location: Denver , CO 
+16:55:32.415 INFO  Date: January 18th 2019, 09:00:00 pm 
+16:55:32.416 INFO  ============ 
+16:56:45.960 INFO  Operation: spotify-this-song The Sign 
+16:56:45.961 INFO  Artist: Ace of Base 
+16:56:45.961 INFO  Song The Sign 
+16:56:45.961 INFO  Spotify Preview URL: https://p.scdn.co/mp3-preview/5ca0168d6b58e0f993b2b741af90ecc7c9b16893?cid=939a97dfe0d24de48565baadab4812c7 
+16:56:45.962 INFO  Album Name: Greatest Hits 
+16:56:45.962 INFO  ============ 
+16:58:16.629 INFO  Operation: node liri.js movie-this Mr. Nobody 
+16:58:16.629 INFO  Title: Mr. Nobody 
+16:58:16.630 INFO  Year: 2009 
+16:58:16.630 INFO  IMDB Rating: 7.9/10 
+16:58:16.630 INFO  Rotton Tomatoes Rating: 67% 
+16:58:16.631 INFO  Country Belgium, Germany, Canada, France, USA, UK 
+16:58:16.631 INFO  Language English, Mohawk 
+16:58:16.631 INFO  Plot A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible. 
+16:58:16.632 INFO  Actors Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham 
+16:58:16.632 INFO  ============ 
